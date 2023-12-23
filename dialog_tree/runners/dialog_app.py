@@ -8,7 +8,7 @@ from pygame.font import Font
 from pygame.mixer import Sound
 from pygame.surface import Surface
 
-from config_file import load_dialog_from_file
+from __init__ import load_dialog_from_file
 from constants import BLACK, Millis
 from dialog_component import DialogComponent
 from graph import DialogGraph
