@@ -1,0 +1,21 @@
+{
+  "title": "My Visual Novel Game",
+  "background_image_id": "intro_background.png",
+  "graph": {
+    "root": "INTRO",
+    "nodes": [
+      {
+        "id": "INTRO",
+        "text": "This is an intro",
+        "graphics": {
+          "image": "intro_background.png",
+          "offset": [0, 70]
+        },
+        "choices": [
+          ["Go to the next scene", "INTRO"],
+          ["Go back to the previous scene", "INTRO"]
+        ]
+      }
+    ]
+  }
+}

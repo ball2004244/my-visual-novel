@@ -18,9 +18,8 @@ FONT_DIR = "resources/fonts"
 SOUND_DIR = "resources/sounds"
 
 UI_MARGIN = 3
-SCREEN_SIZE = 500, 500
-PICTURE_SIZE = (SCREEN_SIZE[0] - UI_MARGIN * 2, 380)
-
+SCREEN_SIZE = 1366, 768
+PICTURE_SIZE = (int(SCREEN_SIZE[0] - UI_MARGIN * 2), int(SCREEN_SIZE[1] * 0.8))
 
 class App:
     def __init__(self, screen: Surface, dialog_font: Font, choice_font: Font, images: Dict[str, Surface],
